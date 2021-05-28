@@ -1,0 +1,133 @@
+[
+  {
+    "id": "de78c34a-95ca-4fc8-8564-8c585c829017",
+    "data": [
+      {
+        "text": "could you order me a pizza with ",
+        "userDefined": false
+      },
+      {
+        "text": "topping",
+        "meta": "@Toppings",
+        "alias": "Toppings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3f42841-4a07-433b-9964-05b156c7f1af",
+    "data": [
+      {
+        "text": "could you order ",
+        "userDefined": false
+      },
+      {
+        "text": "type",
+        "meta": "@PizzaType",
+        "alias": "PizzaType",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4376ca59-8ba0-46fe-bb90-9ec53773dee6",
+    "data": [
+      {
+        "text": "could you order pizza ",
+        "userDefined": false
+      },
+      {
+        "text": "now",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b9d1641c-9d65-42ae-9d33-e785de5743c8",
+    "data": [
+      {
+        "text": "could you order pizza and deliver ",
+        "userDefined": false
+      },
+      {
+        "text": "here",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7344e6f-0eb3-4508-8c1f-3d855f257b4d",
+    "data": [
+      {
+        "text": "could you order pizza in my phone number ",
+        "userDefined": false
+      },
+      {
+        "text": "7001894170",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbdb4649-0304-45d2-b7c1-70f05577ea5d",
+    "data": [
+      {
+        "text": "could you order pizza in my mail id ",
+        "userDefined": false
+      },
+      {
+        "text": "swargarajd@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d46331cd-dd91-47e6-9853-9620d31bc2ad",
+    "data": [
+      {
+        "text": "could you order pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

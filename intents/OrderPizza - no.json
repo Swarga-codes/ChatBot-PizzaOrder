@@ -1,0 +1,39 @@
+{
+  "id": "07cf75f1-93d9-40ed-ae8f-23d26390d86a",
+  "parentId": "bdb33167-d4b0-4278-bf77-9d96a81067a9",
+  "rootParentId": "bdb33167-d4b0-4278-bf77-9d96a81067a9",
+  "name": "OrderPizza - no",
+  "auto": true,
+  "contexts": [
+    "OrderPizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizza.OrderPizza-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your order for pizza without coke is confirmed."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

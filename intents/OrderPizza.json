@@ -1,0 +1,179 @@
+{
+  "id": "bdb33167-d4b0-4278-bf77-9d96a81067a9",
+  "name": "OrderPizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "OrderPizza-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b52cff6-2fc7-4af5-91be-02791db0212d",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you specify your mail id?"
+            },
+            {
+              "lang": "en",
+              "value": "Please type your mail id."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c4e56cce-a1fa-4421-8738-8e3e5220e3b7",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your phone number"
+            },
+            {
+              "lang": "en",
+              "value": "Can you give me your phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2798b497-490f-42f4-944d-3ddde3bfd66a",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your address"
+            },
+            {
+              "lang": "en",
+              "value": "Can you enter your address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fd706670-90f8-4bcb-b093-db19db8c5ca9",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you specify the time"
+            },
+            {
+              "lang": "en",
+              "value": "When do you need the pizza"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f14c509a-7d66-4621-9766-594c5146a969",
+          "name": "PizzaType",
+          "required": true,
+          "dataType": "@PizzaType",
+          "value": "$PizzaType",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you need Veg or Non-Veg Pizza"
+            },
+            {
+              "lang": "en",
+              "value": "Veg or Non-Veg?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "95a73f9a-020b-4e36-8d9b-abaa86d794c2",
+          "name": "Toppings",
+          "required": true,
+          "dataType": "@Toppings",
+          "value": "$Toppings",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you specify the toppings you need to be added  to your pizza"
+            },
+            {
+              "lang": "en",
+              "value": "Which topping should be added to your pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your order is confirmed of $PizzaType pizza with $Toppings toppings to deliver in the address of $address in the email id $email.original. Do you need coke with it?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

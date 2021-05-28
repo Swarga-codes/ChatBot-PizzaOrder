@@ -1,0 +1,44 @@
+{
+  "id": "5257387e-7d88-4858-99c4-b4d8f1c5156c",
+  "parentId": "bdb33167-d4b0-4278-bf77-9d96a81067a9",
+  "rootParentId": "bdb33167-d4b0-4278-bf77-9d96a81067a9",
+  "name": "OrderPizza - yes",
+  "auto": true,
+  "contexts": [
+    "OrderPizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizza.OrderPizza-yes",
+      "affectedContexts": [
+        {
+          "name": "OrderPizza-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for ordering with coke"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "description": "",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "SwargarajBot",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "voiceType": "VOICE_TYPE_UNSPECIFIED",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "PROTOCOL_VERSION_UNSPECIFIED",
+    "autoPreviewEnabled": false,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2",
+  "secondaryKey": "228dd0a0d3154f2c9268159a9743ea20",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false
+}
